@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+//imorts
+import Animal from './Animal'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Title</h1>
+      <Animal mammal="dog" name="Rocco" />
+      <Animal mammal="cat" name="Garfield"/>
+      <Human name="Marisela" location="MS"/>
     </div>
   );
 }
