@@ -1,5 +1,6 @@
 //imorts
 import Animal from './Animal'
+import Human from './Human';
 
 function App() {
   return (

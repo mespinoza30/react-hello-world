@@ -4,8 +4,6 @@ function Animal(props) {
         <div>
             <h1>{props.mammal}</h1>
             <p>This is a {props.mammal}</p>
-            <h1>{props.name}</h1>
-            <p>This is {props.name}</p>
         </div>
     )
 }
